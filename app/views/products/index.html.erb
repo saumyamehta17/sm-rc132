@@ -1,0 +1,7 @@
+<h3>Products</h3>
+
+<h4>Category</h4>
+<%= @prod_desc %> <br/>
+<%- Category.all.each do |cat| %>
+    <%= cat.name %><br/>
+<%- end %>
